@@ -38,9 +38,10 @@ end
 
 def matrix_lookup(matrix, row, column)
   storage_room = [
-    ["Eggplant","Grapefruit", "Oranges", "Pineapple", "Watermelon"],
-    ["Asparagus", "Avocadoes", "Grapes", "Potatoes", "Strawberries"]
+    ["Grapefruit", "Pineapple",  "Oranges",  "Watermelon",  "Eggplant"],
+    ["Strawberries", "Potatoes",  "Grapes",   "Avocadoes", "Asparagus"]
   ]
+  
   storage_room[1][1]
   # Given any matrix (array of arrays), a row index and a column index,
   # Return the matrix's content at that row and and column
